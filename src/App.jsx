@@ -21,7 +21,7 @@ import ProtectedRoutes from './components/ProtectedRoutes';
 import ArtisShops from './pages/artis/ArtisShops';
 import ArtisShopDetail from './pages/artis/ArtisShopDetail';
 import ErrorPage from './components/commen/ErrorPage';
-import Dashboard from './pages/admin/dashboard';
+import Dashboard from './pages/admin/Dashboard';
 import AdminRoutes from './components/AdminRoutes';
 
 
