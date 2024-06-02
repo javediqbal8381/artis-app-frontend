@@ -37,7 +37,7 @@ function SignUpComponent() {
 
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col justify-center sm:py-12">
-      <div className="p-10 xs:p-0 mx-auto md:w-full md:max-w-md">
+      <div className="p-10 xs:p-0 max-w-[330px] sm:max-w-sm mx-auto md:w-full md:max-w-md">
         <h1 className="text-veryLarge text-db font-semibold text-center text-gray-800 mb-6">
           ArtisanMarketPlace
         </h1>

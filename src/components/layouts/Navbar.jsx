@@ -12,8 +12,23 @@ const Navbar = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const menuRef = useRef(null);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
+  const menuRef = useRef(null);
+  <ul className='hidden sm:flex justify-between items-center w-[60%]'>
+    <li className='nav_link'>
+      <Link to='/'>Home</Link>
+    </li>
+    <li className='nav_link'>
+      <Link to='/products'>Products</Link>
+    </li>
+    <li className='nav_link'>
+      <Link to='/shops'>Shops</Link>
+    </li>
+    <li className='nav_link'>
+      <Link to='/about'>About</Link>
+    </li>
+  </ul>
   useEffect(() => {
     // Add event listener to close menu when clicked outside
     function handleClickOutside(event) {
@@ -70,7 +85,7 @@ const Navbar = () => {
   return (
     <div className='h-20 p-3 px-8 flex items-center justify-between'>
       <Link to={'/'}>
-       <img width={150} src="/logo.png" alt="" />
+        <img width={150} src="/logo.png" alt="" />
       </Link>
       <ul className='hidden sm:flex justify-between items-center w-[60%]'>
         <li className='nav_link'>
@@ -117,8 +132,38 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className='flex sm:hidden'>
-        <FaAlignJustify />
+      <div className='flex sm:hidden gap-4 p-2 items-center'>
+        <div onClick={gotoCart} className="relative cursor-pointer hover:scale-110">
+          <FaShoppingCart size={30} />
+          {
+            cartItems.length > 0 &&
+            <span className="absolute -top-3 -right-3 text-white text-verySmall bg-db 
+            rounded-full px-[6px] text-xs">
+              {cartItems.length}
+            </span>
+          }
+        </div>
+        <FaAlignJustify onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} />
+
+        {
+          isMobileMenuOpen &&
+          <div className="absolute z-10 top-16 right-0 mt-2 w-48 bg-white border rounded-lg shadow-lg">
+            <ul className="py-2">
+              <li className='nav_link'>
+                <Link to='/'>Home</Link>
+              </li>
+              <li className='nav_link'>
+                <Link to='/products'>Products</Link>
+              </li>
+              <li className='nav_link'>
+                <Link to='/shops'>Shops</Link>
+              </li>
+              <li className='nav_link'>
+                <Link to='/about'>About</Link>
+              </li>
+            </ul>
+          </div>
+        }
       </div>
     </div>
   )

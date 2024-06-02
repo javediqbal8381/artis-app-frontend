@@ -26,9 +26,9 @@ function SignInComponent() {
 
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col justify-center sm:py-12">
-      <div className="p-10 xs:p-0 mx-auto md:w-full md:max-w-md">
+      <div className="p-10 xs:p-0 max-w-[330px] sm:max-w-sm mx-auto md:w-full md:max-w-md text-center">
         <h1 className="text-veryLarge text-db font-semibold text-center text-gray-800 mb-6">
-          ArtisanMarketPlace
+          Artisan MarketPlace
         </h1>
         <h2 className="text-3xl font-semibold text-center text-gray-800 mb-6">Sign In</h2>
         <form className="mt-8" onSubmit={handleSubmit}>
