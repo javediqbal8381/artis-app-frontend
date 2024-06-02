@@ -12,7 +12,7 @@ import Products from './pages/Products';
 import Shops from './pages/Shops';
 import ShopDetails from './pages/ShopDetail';
 import ProductDetail from './pages/productDetail';
-import CatagorizedProducts from './pages/catagorizedProducts';
+import CatagorizedProducts from './pages/CatagorizedProducts';
 import Checkout from './pages/Checkout';
 import Cart from './pages/Cart';
 import Payment from './pages/Payment';
