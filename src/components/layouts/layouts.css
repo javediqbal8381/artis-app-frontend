@@ -1,0 +1,41 @@
+.logo_link {
+    text-decoration: none;
+    transition: transform 0.2s ease; /* Smooth transition on hover */
+
+}
+
+.logo_link:hover {
+    color: #8b5c2b;
+    /* Darker brown on hover */
+    transform: scale(1.1);
+    /* Scale up slightly on hover */
+}
+
+.nav_link {
+    cursor: pointer;
+    width: 120px;
+    /* Increased width for better readability */
+    padding: 8px;
+    /* Increased padding for better spacing */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #333;
+    /* Default text color */
+    border-radius: 10px;
+    /* Rounded corners */
+    transition: all 0.3s ease;
+    /* Smooth transition on hover */
+    border: 2px solid transparent;
+    /* Transparent border */
+}
+
+.nav_link:hover {
+    color: #8b5c2b;
+    /* Darker brown on hover */
+    background-color: #f5deb3;
+    /* Light yellow background on hover */
+    border-color: #8b5c2b;
+    /* Border color on hover */
+}

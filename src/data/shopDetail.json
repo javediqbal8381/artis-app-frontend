@@ -1,0 +1,15 @@
+{
+    "shopData": [{
+        "id": 1,
+        "name": "Artisan Creations",
+        "location": "Online",
+        "website": "https://www.artisancreations.com",
+        "hours": "24/7",
+        "rating": 4.5,
+        "description": "Discover unique handcrafted artworks and creations by talented artisans.",
+        "image": "artisan_creations.jpg",
+        "products": [
+            1,3,5,2
+        ]
+    }]
+}

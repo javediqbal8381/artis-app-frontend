@@ -1,0 +1,96 @@
+{
+    "shops": [
+      {
+        "_id": "shop1_id",
+        "name": "Artisan Creations",
+        "location": "Online",
+        "website": "https://www.artisancreations.com",
+        "hours": "24/7",
+        "rating": 4.5,
+        "description": "Discover unique handcrafted artworks and creations by talented artisans.",
+        "image": "artisan_creations.jpg",
+        "products": [
+          "65c7b84fcd2bc4fae6529a8d",
+          "65c7bb738714072c15ddb53d",
+          "65c7bb4a8714072c15ddb53a"
+        ]
+      },
+      {
+       
+        "name": "Vintage Treasures",
+        "location": "Online",
+        "website": "https://www.vintagetreasures.com",
+        "hours": "24/7",
+        "rating": 4.2,
+        "description": "Explore a curated collection of vintage treasures and unique antiques.",
+        "image": "vintage_treasures.jpg",
+        "products": [
+          "65c7bb738714072c15ddb53e",
+          "65c7bb738714072c15ddb541",
+          "65c7bb738714072c15ddb542"
+        ]
+      },
+      {
+      
+        "name": "Nature's Delight",
+        "location": "Online",
+        "website": "https://www.naturesdelight.com",
+        "hours": "24/7",
+        "rating": 4.8,
+        "description": "Embrace the beauty of nature with our handpicked selection of natural wonders.",
+        "image": "natures_delight.jpg",
+        "products": [
+          "65c7bb738714072c15ddb540",
+          "65c7bb738714072c15ddb543",
+          "65c7bb738714072c15ddb544"
+        ]
+      },
+      {
+      
+        "name": "Modern Elegance",
+        "location": "Online",
+        "website": "https://www.modernelegance.com",
+        "hours": "24/7",
+        "rating": 4.0,
+        "description": "Experience contemporary sophistication with our curated modern art pieces.",
+        "image": "modern_elegance.jpg",
+        "products": [
+          "65c7bb738714072c15ddb53a",
+          "65c7bb738714072c15ddb53d",
+          "65c7bb738714072c15ddb541"
+        ]
+      },
+      {
+ 
+        "name": "Crafty Corner",
+        "location": "Online",
+        "website": "https://www.craftycorner.com",
+        "hours": "24/7",
+        "rating": 4.7,
+        "description": "Explore the world of crafts with our diverse collection of handmade wonders.",
+        "image": "crafty_corner.jpg",
+        "products": [
+          "65c7bb738714072c15ddb53a",
+          "65c7bb738714072c15ddb53d",
+          "65c7bb738714072c15ddb541"
+        ]
+      },
+      {
+       
+        "name": "Aromatic Haven",
+        "location": "Online",
+        "website": "https://www.aromatichaven.com",
+        "hours": "24/7",
+        "rating": 4.3,
+        "description": "Indulge your senses with our collection of exquisite fragrances and scents.",
+        "image": "aromatic_haven.jpg",
+        "products": [
+          "65c7bb738714072c15ddb53f",
+          "65c7bb738714072c15ddb541",
+          "65c7bb738714072c15ddb544"
+        ]
+      }
+    ]
+    
+  }
+  
